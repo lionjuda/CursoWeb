@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cadastro de Filmes e Series</h1>
+
+        <input type="text" id="nome" placeholder="Tipo (filme ou serie)">
+        <input type="text" id="titulo" placeholder="Titulo">
+        <input type="text" id="genero" placeholder="Genero">
+        <input type="number" id="ano" placeholder="Ano">
+        <input type="number" id="avaliacao" placeholder="Avaliacao">
+        <input type="text" id="comentario" placeholder="Comentario">
+        <button onclick="adicionarProduto()">Adicionar Produto</button>
+
+        <table id="tabela-produtos">
+            <thead>
+                <tr>
+                    <th>Tipo (filme ou série)</th>
+                    <th>Titulo</th>
+                    <th>Genero</th>
+                    <th>Ano</th>
+                    <th>Avaliação</th>
+                    <th>Comentario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aqui os produtos serão adicionados através do JavaScript-->
+            </tbody>
+        </table>
+    </div>
+    <script src="Atividade.js"></script>
+</body>
+
+</html>
